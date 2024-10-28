@@ -31,9 +31,8 @@ Para ejecutar el PY:
 
 ## Tecnologías Usadas 🛠️
 
-- **Backend:** Node.js, Express.js. 🧑‍💻
-- **Frontend:** HTML, CSS, Axios. 📚
-- **Almacenamiento:** Archivo JSON. 🫙
+- **Backend:** Node.js, Express.js, Java js. 🧑‍💻
+- **Almacenamiento:** BDD PostgreSQL. 🫙
 
 <br/>
 
