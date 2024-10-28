@@ -2,33 +2,30 @@
 
 ## Presentación del Desafío
 
-![Pantalla VSCode](./images/consulta1png)
+![Pantalla VSCode](./images/consulta1.png)
 
-![Pantalla VSCode](./images/consulta2png)
+![Pantalla VSCode](./images/consulta2.png)
 
 ## <br/>
 
 ## Descripción del PY ⌨️
 
-La red social “Like Me” sigue desarrollando su plataforma y ahora necesita permitir la interacción de likes y la eliminación de posts.
+La tienda de joyas My Precious Spa necesita cambiar su aplicación de escritorio por una moderna y dinámica. Para realizar este desafío, como desarrollador Full Stack Developer desarrollé la API REST de una aplicación cliente para satisfacer las necesidades puntuales de sus usuarios de una forma eficiente, mantenible y eficaz.
 
 ## Requerimientos entregados:
 
-1. Agregué una ruta PUT en una API REST y utilizarla para modificar registros en una tabla alojada en PostgreSQL.
-2. Agregué una ruta DELETE en una API REST y utilizarla para eliminar registros en una tabla alojada en PostgreSQL.
-3. Cree un archivo llamado server.js para manejar el servidor.
-4. Capturé los posibles errores en una consulta SQL realizada con el paquete pg usando la sentencia try catch.
+La API REST desarrollada permite:
 
-El servidor estará escuchando en http://localhost:3000. Las rutas disponibles serán:
-
-- GET http://localhost:3000/get: Para obtener todos los posts.
-- POST http://localhost:3000/posts: Para agregar un nuevo post enviando un cuerpo en formato JSON con los campos titulo, url (para la imagen) y descripción.
-- El archivo server.js contiene todo lo necesario para cumplir con los puntos del desafío.
+1. Tener límite de recursos
+2. Filtro de recursos por campos
+3. Paginación
+4. Ordenamiento
+5. Estructura de datos HATEOAS
 
 Para ejecutar el PY:
 
-1. Subir el servidor, ejecutando en el bash: node server.js
-2. Abrir en el navegador la url: http://localhost:5173/
+1. Subir el servidor, ejecutando en el bash: node index.js
+2. Abrir el Thunder Client y ejecutar las consultas HTTP realizadas a las rutas GET correspondientes a los requerimientos de este desafío. Ver pantallas del Readme.
 
 ## <br/>
 
